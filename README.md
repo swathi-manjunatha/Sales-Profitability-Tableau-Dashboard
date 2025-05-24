@@ -1,91 +1,131 @@
-# Tableau-Executive-Overview-Sales-Profitability-Dashboard
-This project started with a simple goal: visualize sales data overview across US. But it quickly turned into something much more valuable, a way to understand *where* the business is truly profitable, and *where* it's not.
 
-Built using Tableau and the Sample Superstore dataset, this dashboard helps answer questions that go beyond KPIs:
-
-- Are we really making money, or just making sales?
-- Where are we giving away margins without realizing it?
-- Are discounts creating growth or quietly killing profit?
-- Which category or customers actually drive value?
+# 📊 Executive Sales & Profitability Dashboard – Built in Tableau
+| A data-driven executive overview to uncover where the business is truly profitable — and where it's silently losing money.
 
 ---
 
-## About the Dataset
+This project began with a simple goal: **visualize sales data across the U.S.**
+But it quickly evolved into something far more valuable — a tool to uncover **where the business is truly profitable** and where it’s silently losing money.
 
-The Sample Superstore dataset is a public retail dataset that mimics U.S. sales performance over 3 years. It includes:
-- 9,900+ transactions  
-- Sales, Profit, Discount, Quantity  
-- Region, State, City  
-- Customer Segment & Product Category
-It's simple but rich enough to uncover some powerful insights when looked at through the right lens.
+Built using **Tableau** and the **Sample Superstore** dataset, this dashboard empowers users to answer questions that go well beyond top-line KPIs:
 
----
-
-## What the Dashboard Offers
-
-- **Key Metrics at a Glance**:  
-  → Total Sales: `$2.29M`  
-  → Total Profit: `$286K`  
-  → Avg. Discount: `15.6%`  
-  → Profit per Order: `$57.18`  
-  → Profit per Customer: `$361.16`
-
-- **State-Level Profitability Map**  
-  Visualize profit ratios across U.S. states, and dig into city-level performance via tooltips.
-
-- **City Profit Ratio Bar Chart**  
-  Sortable view to spot hidden loss-makers.
-
-- **Sales Trends by Segment & Category**  
-  Understand seasonality and performance stability over time.
-
-- **Interactive Filters**  
-  Region, Segment, Profitability Ranges, Order Dates
+* Are we actually **making money**, or just **moving products**?
+* Where are we unknowingly **sacrificing margins**?
+* Are **discounts fueling growth**, or quietly eating into profits?
+* Which **segments, categories, or customers** actually deliver sustainable value?
 
 ---
 
-## 🔍 Insights That Stood Out
+## 📦 About the Dataset
 
-- **High sales can still mean low returns**  
-  - Illinois generated over `$119K` in sales… but a **-15.7%** profit ratio  
-  - Texas had `$170K+` in revenue… but profit was barely **3.9%**
+The **Sample Superstore** dataset mimics U.S. retail sales performance over three years. It's a popular, public dataset used for BI dashboards.
 
-- **Loss-making cities are often overlooked**  
-  - Cities like **Carrollton**, **Peoria**, and **Tigard** consistently returned **negative profits**  
-  - These red flags were hidden in overall state performance
+**It includes:**
 
-- **Discounts over 25% hurt more than they help**  
-  - In several regions, average discounts of 30%+ directly aligned with **-20%+ profit ratios**
+* 9,900+ transactions
+* Metrics: Sales, Profit, Discount, Quantity
+* Dimensions: Region, State, City, Segment, Category, Sub-Category
 
-- **Segment performance isn’t just about volume**  
-  - **Consumer** segment brought the most orders — but **Corporate** delivered **higher profit per order**  
-  - **Home Office** showed seasonal spikes, especially in Q4
-
-- **Category performance isn’t all equal**  
-  - **Technology** was the most profitable — especially during year-end  
-  - **Furniture** had consistent sales… but the **lowest profit ratio**  
-  - **Office Supplies** delivered stable, low-risk revenue
+Simple in structure — yet rich enough to reveal **deep insights** when analyzed through the lens of **profitability**.
 
 ---
 
-## 💡 Business Thinking Behind the Dashboard
+## 🧰 What the Dashboard Offers
 
-This dashboard helps business stakeholders:
+### 🔢 **Key Metrics at a Glance**
 
-- Spot where sales don’t equal profit  
-- Rethink deep discounting and its impact  
-- Prioritize regions and cities that deliver consistent margin  
-- Focus on high-value customer segments and products  
-- Prepare smarter Q4 strategies based on historical category trends
+* **Total Sales:** `$2.29M`
+* **Total Profit:** `$286K`
+* **Avg. Discount:** `15.6%`
+* **Profit per Order:** `$57.18`
+* **Profit per Customer:** `$361.16`
+
+### 🗺️ **State-Level Profitability Map**
+
+* Explore profit ratios across U.S. states
+* Drill down to **city-level performance** using tooltips
+
+### 🏙️ **City Profit Ratio Bar Chart**
+
+* Instantly **identify hidden loss-makers** within high-revenue states
+
+### 📅 **Sales Trends by Segment & Category**
+
+* Analyze **seasonality**, demand patterns, and category strength over time
+
+### 🧭 **Interactive Filters**
+
+* Region, Segment, Profitability Range, and Order Date
+* Enables **dynamic exploration** and targeted insight
 
 ---
 
-## 🔗 View the Dashboard: https://public.tableau.com/views/ExecutiveOverviewInteractiveDashboard/ExecutiveOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+## 🔍 Standout Insights
 
-Play with the filters, dive into cities, and follow the patterns. The answers are there if you ask the right questions.
+* 🧾 **High Sales ≠ High Profit**
+
+  * **Illinois:** \$119K+ in sales but **-15.7%** profit ratio
+  * **Texas:** \$170K+ in revenue with only **3.9%** profit
+
+* 🚩 **Loss-Making Cities Exposed**
+
+  * **Carrollton**, **Peoria**, **Tigard** returned **consistent negative profits**
+  * Hidden liabilities within otherwise strong-performing states
+
+* 📉 **Discounts Over 25% Are Risky**
+
+  * Regions with 30%+ discounts often align with **-20%+ profit ratios**
+
+* 🧠 **Segment Value Isn’t Just Volume**
+
+  * **Consumer** leads in volume
+  * But **Corporate** has **higher profit per order**
+  * **Home Office** shows **Q4 performance spikes**
+
+* 🧮 **Category Performance Varies Greatly**
+
+  * **Technology** is the most profitable (especially in Q4)
+  * **Furniture** shows steady sales, but **lowest margins**
+  * **Office Supplies** delivers **stable, low-risk returns**
 
 ---
-## Dashboard Screenshot
-<img width="1440" alt="Screenshot 2025-05-23 at 10 50 52 PM" src="https://github.com/user-attachments/assets/e971ceb3-d446-467f-b161-00d88dc68c2a" />
 
+## 💼 Business Thinking Behind the Dashboard
 
+This dashboard is built with **executive decision-making** in mind.
+
+It helps stakeholders:
+
+* Identify **where sales do not equal profit**
+* Rethink **discounting strategy** by region, segment, and category
+* Focus on **high-value customers and cities** with strong margins
+* Prioritize **profitability over volume**
+* Develop **smarter Q4 and category-specific strategies** based on historical trends
+
+By shifting the focus from revenue alone to **revenue-quality**, this dashboard enables **smarter, profit-first business planning**.
+
+---
+
+## 🔗 Live Dashboard Access
+
+📍 Explore the fully interactive dashboard on Tableau Public:
+🔗 [**View Dashboard**][(https://public.tableau.com/views/ExecutiveOverviewInteractiveDashboard/ExecutiveOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)](https://public.tableau.com/views/ExecutiveOverviewInteractiveDashboard/ExecutiveOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+> 🧭 Use filters, dive into state/city performance, and uncover untapped value.
+
+---
+
+## 🖼️ Dashboard Preview
+
+<img width="1440" alt="Dashboard Screenshot" src="https://github.com/user-attachments/assets/e971ceb3-d446-467f-b161-00d88dc68c2a" />
+
+---
+
+## 📬 Let’s Connect
+
+If you're interested in discussing this project or exploring data-driven solutions for business performance:
+
+🔗 [LinkedIn](https://linkedin.com/in/swathi-manjunatha)
+📧 [Email](mailto:swathixm@gmail.com)
+
+---

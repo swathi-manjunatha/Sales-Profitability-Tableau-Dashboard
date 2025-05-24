@@ -86,5 +86,6 @@ Play with the filters, dive into cities, and follow the patterns. The answers ar
 
 ---
 ## Dashboard Screenshot
-<img width="1364" alt="Screenshot 2025-05-23 at 10 40 40 PM" src="https://github.com/user-attachments/assets/6759bc62-5c78-436a-8f4a-1e8fd78291b0" />
+<img width="1440" alt="Screenshot 2025-05-23 at 10 50 52 PM" src="https://github.com/user-attachments/assets/e971ceb3-d446-467f-b161-00d88dc68c2a" />
+
 

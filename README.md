@@ -1,6 +1,6 @@
 
 # 📊 Executive Sales & Profitability Dashboard – Built in Tableau
-| A data-driven executive overview to uncover where the business is truly profitable — and where it's silently losing money.
+> A data-driven executive overview to uncover where the business is truly profitable — and where it's silently losing money.
 
 ---
 

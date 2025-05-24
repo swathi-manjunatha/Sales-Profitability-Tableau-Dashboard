@@ -85,3 +85,6 @@ This dashboard helps business stakeholders:
 Play with the filters, dive into cities, and follow the patterns. The answers are there if you ask the right questions.
 
 ---
+## Dashboard Screenshot
+<img width="1364" alt="Screenshot 2025-05-23 at 10 40 40 PM" src="https://github.com/user-attachments/assets/6759bc62-5c78-436a-8f4a-1e8fd78291b0" />
+
